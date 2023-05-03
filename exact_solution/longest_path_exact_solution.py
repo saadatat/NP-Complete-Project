@@ -54,7 +54,6 @@ def main():
     line_spl = total.split()
     num_edges = int(line_spl[1])
 
-
     edges = [input().split(' ') for _ in range(num_edges)]
     weights = dict()
     nodes = []
